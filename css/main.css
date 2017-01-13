@@ -26,7 +26,6 @@ body {
   background-color: #e2e2e2;
 }
 
-
 .img-flex {
   width: 100%;
   display: block;
@@ -36,9 +35,14 @@ body {
   text-decoration: none;
   color: #fff;
   background-color: #555;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   border-radius: 4px;
   display: inline-block;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .content-mint-dark {
@@ -57,21 +61,54 @@ body {
     line-height: 1.4;
   }
 
+  .content-mint-dark h1,
+  .content-mint-dark p {
+    margin: 0 0 1.4rem;
+  }
+
   .mint-dark div {
     display: inline-block;
     vertical-align: middle;
   }
 
   .img-mint-dark {
-    width: 51%;
+    width: 50%;
   }
 
   .content-mint-dark {
-    width: 48%;
+    width: 49%;
+    text-align: left;
   }
 
   .mint-dark {
     padding-top: 1rem;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .content-mint-dark h1,
+  .content-mint-dark p {
+    margin: 0 0 1.5rem;
+  }
+
+  .mint-dark {
+    padding: 2rem 0;
+  }
+
+  .img-mint-dark {
+    max-width: 25em;
+  }
+
+  .content-mint-dark {
+    max-width: 24em;
   }
 
 }
