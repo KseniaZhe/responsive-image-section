@@ -31,7 +31,7 @@ body {
   display: block;
 }
 
-.buy-now {
+a {
   text-decoration: none;
   color: #fff;
   background-color: #555;
@@ -109,6 +109,22 @@ a:hover {
 
   .content-mint-dark {
     max-width: 24em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  .img-mint-dark {
+    max-width: 26em;
+  }
+
+  .content-mint-dark {
+    max-width: 25em;
   }
 
 }
