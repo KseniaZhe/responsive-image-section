@@ -18,10 +18,14 @@ html {
 }
 
 body {
-  background-color: #e2e2e2;
   margin: 0;
-  padding-bottom: 1rem;
 }
+
+.mint-dark {
+  padding-bottom: 1rem;
+  background-color: #e2e2e2;
+}
+
 
 .img-flex {
   width: 100%;
@@ -44,4 +48,30 @@ body {
 .content-mint-dark h1,
 .content-mint-dark p {
   margin: 0 auto 1.27rem;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .mint-dark div {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .img-mint-dark {
+    width: 51%;
+  }
+
+  .content-mint-dark {
+    width: 48%;
+  }
+
+  .mint-dark {
+    padding-top: 1rem;
+  }
+
 }
